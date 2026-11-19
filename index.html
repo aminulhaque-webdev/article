@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A, An, The – 500 Article Sentences</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7fb;--surface:#fff;--text:#1b1f33;--muted:#5d647d;--line:#e3e6f0;--a:#e8590c;--an:#0b8f6a;--the:#4263eb;--hero:linear-gradient(135deg,#4263eb,#7048e8);--mk:#fff3bf;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1220;--surface:#181c30;--text:#eceefa;--muted:#9aa1bf;--line:#2a2f4a;--a:#ff8a4c;--an:#38d9a9;--the:#91a7ff;--hero:linear-gradient(135deg,#2b3a8f,#4a2fa0);--mk:#5c4b00}}
+:root[data-theme="dark"]{--bg:#0f1220;--surface:#181c30;--text:#eceefa;--muted:#9aa1bf;--line:#2a2f4a;--a:#ff8a4c;--an:#38d9a9;--the:#91a7ff;--hero:linear-gradient(135deg,#2b3a8f,#4a2fa0);--mk:#5c4b00}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Lato',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;line-height:1.6}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font-weight:900;font-size:1.2rem;letter-spacing:.5px}.logo span{color:var(--a)}
+.tbtn{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:99px;padding:8px 16px;font:inherit;font-weight:700;cursor:pointer}
+.hero{background:var(--hero);color:#fff;border-radius:24px;padding:56px 32px;text-align:center;margin-bottom:28px}
+.hero h1{font-size:clamp(2rem,6vw,3.6rem);margin:0 0 10px;font-weight:900;line-height:1.1}
+.hero p{max-width:560px;margin:0 auto 24px;opacity:.92;font-size:1.1rem}
+.pills{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.pill{background:rgba(255,255,255,.18);padding:8px 18px;border-radius:99px;font-weight:700}
+h2{font-size:1.6rem;margin:36px 0 14px;font-weight:900}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px}
+.card h3{margin:0 0 6px;font-size:1.1rem}.card p{margin:0;color:var(--muted)}
+.card b{color:var(--text)}
+.c-a{border-top:4px solid var(--a)}.c-an{border-top:4px solid var(--an)}.c-the{border-top:4px solid var(--the)}
+.tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:18px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:99px;padding:8px 16px;font:inherit;font-weight:700;cursor:pointer}
+.chip.on{background:var(--text);color:var(--bg);border-color:var(--text)}
+.search{flex:1;min-width:200px;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:12px;padding:10px 14px;font:inherit}
+.count{color:var(--muted);font-weight:700;margin-bottom:10px}
+ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:12px}
+li{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;gap:12px;align-items:flex-start;border-left:5px solid var(--c)}
+li.a{--c:var(--a)}li.an{--c:var(--an)}li.the{--c:var(--the)}
+.n{font-weight:900;color:var(--muted);min-width:34px;font-size:.9rem;padding-top:2px}
+.t{flex:1}
+mark{background:var(--mk);color:inherit;border-radius:4px;padding:0 3px;font-weight:900}
+.cp{border:0;background:none;color:var(--muted);cursor:pointer;font-size:1rem}
+.more{display:block;margin:24px auto;border:0;background:var(--hero);color:#fff;border-radius:99px;padding:14px 32px;font:inherit;font-weight:900;cursor:pointer}
+.bn{font-family:'Hind Siliguri','Noto Sans Bengali','Lato',sans-serif}
+.rf{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+.rc{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.rc svg{width:100%;height:auto;display:block}
+.rb{padding:12px 16px 16px}
+.rb small{font-weight:900;color:var(--c)}
+.rb p{margin:4px 0 10px;font-size:1.02rem}
+.ex{font-weight:700;background:var(--bg);border-radius:8px;padding:6px 10px;display:inline-block}
+.k-a{--c:var(--a)}.k-an{--c:var(--an)}.k-the{--c:var(--the)}.k-x{--c:var(--muted)}
+.note{--red:#e03131;--pur:#7048e8;--grn:#2f9e44;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px 24px;box-shadow:0 6px 24px rgba(0,0,0,.06)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .note{--red:#ff8787;--pur:#b197fc;--grn:#69db7c}}
+:root[data-theme="dark"] .note{--red:#ff8787;--pur:#b197fc;--grn:#69db7c}
+.nt{text-align:center;font-size:clamp(2rem,6vw,2.8rem);margin:0 0 14px;font-weight:900;letter-spacing:3px;text-decoration:underline wavy var(--pur);text-underline-offset:8px}
+.df{text-align:center;max-width:640px;margin:0 auto 18px;font-size:1.1rem}
+.ul{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px;font-weight:700}
+.ul.r{text-decoration-color:var(--red)}.ul.p{text-decoration-color:var(--pur)}
+.gl{border:0;border-top:3px solid var(--grn);margin:0 0 18px}
+.three{text-align:center;font-size:1.3rem;margin:0 0 18px}
+.ng{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+.hd{display:flex;align-items:center;gap:10px;font-size:1.4rem;font-weight:700;margin-bottom:6px}
+.bx{border:2px solid var(--red);padding:0 12px;border-radius:4px}
+.it p{margin:0 0 6px}
+.it ul{margin:0;padding-left:22px;list-style:none}
+.it li{font-size:1.1rem}.it li::before{content:"\2022 ";color:var(--red)}
+.note b{color:var(--red)}
+.imp{margin:26px auto 0;max-width:420px;border:3px double var(--grn);border-radius:12px;padding:14px 20px;text-align:center}
+.imp h4{margin:0 0 8px;font-size:1.2rem;text-decoration:underline;text-decoration-color:var(--grn);text-underline-offset:4px}
+.imp p{margin:4px 0;font-size:1.1rem}
+.note .bd{margin-top:10px;padding-top:8px;border-top:1px dashed var(--line);color:var(--muted);font-size:1rem;line-height:1.7}
+.rtabs{margin-bottom:6px}
+.rchip{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:99px;padding:8px 16px;font:inherit;font-weight:700;cursor:pointer}
+.rchip.on{background:var(--text);color:var(--bg);border-color:var(--text)}
+.gh{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:26px 0 14px;font-size:1.4rem;font-weight:900;color:var(--c);border-bottom:3px solid var(--c);padding-bottom:6px}
+.gh .bn{font-size:1rem;color:var(--muted);font-weight:600}
+.gh em{margin-left:auto;font-style:normal;font-size:.9rem;color:var(--muted);font-weight:700}
+footer{text-align:center;color:var(--muted);padding:30px 0 40px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><div class="logo">ARTICLE<span>.</span>LAB</div><button class="tbtn" id="theme">Theme</button></nav>
+<header class="hero">
+<h1>A, An, The</h1>
+<p>The most-used English articles, with 500 clear example sentences to read, search and practise.</p>
+<div class="pills"><span class="pill">500 sentences</span><span class="pill">3 articles</span><span class="pill">Search &amp; filter</span></div>
+</header>
+
+<h2>Quick rules</h2>
+<section class="note">
+<h3 class="nt">ARTICLES</h3>
+<p class="df"><span class="ul r">Article</span> → An article is used before a noun to show whether it is specific or general.<br><span class="bn" style="color:var(--muted)">আর্টিকেল হলো এমন শব্দ, যা বিশেষ্যের (noun) আগে বসে বুঝিয়ে দেয় সেটি নির্দিষ্ট না সাধারণ।</span></p>
+<hr class="gl">
+<p class="three"><span class="ul">There are 3 Articles</span></p>
+<div class="ng">
+<div class="it"><div class="hd"><span>1.</span><span class="bx">A</span></div><p>↳ Used before a <span class="ul r">consonant sound</span></p><ul><li><b>a</b> boy</li><li><b>a</b> book</li></ul><p class="bn bd">ব্যঞ্জনধ্বনি দিয়ে শুরু শব্দের আগে <b>a</b> বসে। যেমন: a boy (একটি ছেলে), a book (একটি বই)।</p></div>
+<div class="it"><div class="hd"><span>2.</span><span class="bx">An</span></div><p>↳ Used before a <span class="ul r">vowel sound</span></p><ul><li><b>an</b> apple</li><li><b>an</b> umbrella</li></ul><p class="bn bd">স্বরধ্বনি (a, e, i, o, u-এর মতো উচ্চারণ) দিয়ে শুরু শব্দের আগে <b>an</b> বসে। যেমন: an apple (একটি আপেল), an umbrella (একটি ছাতা)।</p></div>
+<div class="it"><div class="hd"><span>3.</span><span class="bx">The</span></div><p>↳ Used for a <span class="ul r">specific noun</span></p><ul><li><b>the</b> sun</li><li><b>the</b> teacher</li></ul><p class="bn bd">নির্দিষ্ট বা পরিচিত কিছু বোঝাতে <b>the</b> বসে। যেমন: the sun (সূর্য), the teacher (সেই শিক্ষক)।</p></div>
+</div>
+<div class="imp"><h4>Important Note</h4><p>A &amp; An → <span class="ul p">Indefinite Articles</span></p><p>The → <span class="ul p">Definite Article</span></p><p class="bn bd"><b>A</b> ও <b>An</b> = অনির্দিষ্ট (যেকোনো একটি)।<br><b>The</b> = নির্দিষ্ট (বিশেষ একটি)।</p></div>
+</section>
+
+<h2>50 Article Rules <span class="bn" style="color:var(--muted);font-weight:600;font-size:1.1rem">(৫০টি নিয়ম – বাংলায় ব্যাখ্যা)</span></h2>
+<div class="chips rtabs" id="rtabs">
+<button class="rchip on" data-g="all">All 50</button>
+<button class="rchip" data-g="a">A · 17</button>
+<button class="rchip" data-g="an">An · 8</button>
+<button class="rchip" data-g="the">The · 20</button>
+<button class="rchip" data-g="x">No article · 5</button>
+</div>
+<div id="rules"></div>
+
+<h2>500 sentences</h2>
+<div class="tools">
+<div class="chips" id="chips">
+<button class="chip on" data-f="all">All</button>
+<button class="chip" data-f="a">A</button>
+<button class="chip" data-f="an">An</button>
+<button class="chip" data-f="the">The</button>
+</div>
+<input class="search" id="q" type="search" placeholder="Search a word…" aria-label="Search sentences">
+</div>
+<div class="count" id="count"></div>
+<ol id="list"></ol>
+<button class="more" id="more">Show more</button>
+<footer>Practise daily: read aloud, then write your own sentence for each article.</footer>
+</div>
+<script>
+(function(){
+var aN="book,car,teacher,window,garden,city,phone,river,doctor,table,story,child,bridge,market,student,cake,horse,letter,song,university".split(",");
+var anN="apple,egg,orange,umbrella,idea,hour,engineer,island,artist,answer,elephant,office,airport,actor,uncle,exam,owl,ice cream,email,honest man".split(",");
+var tN="sun,moon,internet,manager,library,ocean,airport,answer,mountain,king,weather,government,bus,museum,kitchen,doctor,movie,bridge,village,teacher,sky,hotel,plan,driver,news".split(",");
+var indef=[
+"I saw {A} {n} near my house.","She bought {A} {n} yesterday.","He is looking for {A} {n}.",
+"We need {A} {n} for our project.","There is {A} {n} on my desk.","They talked about {A} {n} for hours.",
+"My brother found {A} {n} in his bag.","Do you have {A} {n} I can borrow?","Everyone wants {A} {n} like this one.","Our teacher showed us {A} {n} today."];
+var pred=["looks different today.","was mentioned in class.","is famous around the world.","changed everything for us.","is waiting outside.","was much better than expected.","belongs to my neighbor.","stays open until midnight.","became popular last year.","is the best one I know."];
+var data=[],i,s;
+function build(list,tpl,art,cat,count){
+ for(i=0;i<count;i++){
+  var n=list[i%list.length],t=tpl[(i+Math.floor(i/list.length))%tpl.length];
+  data.push({c:cat,s:t.replace("{A}",art).replace("{n}",n)});
+ }
+}
+build(aN,indef,"a","a",170);
+build(anN,indef,"an","an",165);
+for(i=0;i<165;i++){
+ var n=tN[i%tN.length],p=pred[(i+Math.floor(i/tN.length))%pred.length];
+ data.push({c:"the",s:"The "+n+" "+p});
+}
+// interleave so "All" mixes the three articles
+var by={a:[],an:[],the:[]};data.forEach(function(d){by[d.c].push(d)});
+var mix=[];for(i=0;i<170;i++){["a","an","the"].forEach(function(k){if(by[k][i])mix.push(by[k][i])})}
+mix.forEach(function(d,k){d.n=k+1});
+var filter="all",query="",shown=60,STEP=60;
+var list=document.getElementById("list"),count=document.getElementById("count"),more=document.getElementById("more");
+function esc(x){return x.replace(/[&<>]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;"}[c]})}
+function mark(x){return esc(x).replace(/\b(a|an|the)\b/gi,"<mark>$1</mark>")}
+function render(){
+ var q=query.toLowerCase();
+ var f=mix.filter(function(d){return(filter==="all"||d.c===filter)&&(!q||d.s.toLowerCase().indexOf(q)>-1)});
+ count.textContent=f.length+" sentence"+(f.length===1?"":"s");
+ list.innerHTML=f.slice(0,shown).map(function(d){
+  return '<li class="'+d.c+'"><span class="n">'+d.n+'</span><span class="t">'+mark(d.s)+'</span><button class="cp" title="Copy" data-s="'+esc(d.s)+'">⧉</button></li>';
+ }).join("");
+ more.style.display=f.length>shown?"block":"none";
+}
+document.getElementById("chips").addEventListener("click",function(e){
+ var b=e.target.closest(".chip");if(!b)return;
+ document.querySelectorAll(".chip").forEach(function(c){c.classList.remove("on")});
+ b.classList.add("on");filter=b.dataset.f;shown=STEP;render();
+});
+document.getElementById("q").addEventListener("input",function(e){query=e.target.value.trim();shown=STEP;render()});
+more.addEventListener("click",function(){shown+=STEP;render()});
+list.addEventListener("click",function(e){
+ var b=e.target.closest(".cp");if(!b)return;
+ try{navigator.clipboard.writeText(b.dataset.s);b.textContent="✓";setTimeout(function(){b.textContent="⧉"},900)}catch(x){}
+});
+document.getElementById("theme").addEventListener("click",function(){
+ var r=document.documentElement,dark=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;
+ r.dataset.theme=dark?"light":"dark";
+});
+render();
+})();
+</script>
+<script>
+(function(){
+var R=[
+"a|প্রথমবার কোনো একটি অজানা জিনিস বোঝাতে a বসে।|I saw a bird.|🐦",
+"a|ব্যঞ্জনধ্বনি দিয়ে শুরু শব্দের আগে a বসে।|a book|📕",
+"a|পেশা বোঝাতে (একবচন) a বসে।|She is a doctor.|👩‍⚕️",
+"a|u এর উচ্চারণ “ইউ” হলে a বসে।|a university|🎓",
+"a|one এর মতো “ওয়ান” উচ্চারণ হলে a বসে।|a one-way road|🛣️",
+"a|“প্রতি” অর্থে a ব্যবহার হয়।|twice a day|📅",
+"a|গণনাযোগ্য একবচন বিশেষ্যের আগে a বসে।|a chair|🪑",
+"a|“যেকোনো একটি” বোঝাতে a বসে।|A child needs love.|🧒",
+"a|বিস্ময়সূচক বাক্যে What এর পরে a বসে।|What a beauty!|🌸",
+"a|few ও lot এর আগে a বসে (কিছু/অনেক)।|a few friends|👥",
+"a|অপরিচিত ব্যক্তির নামের আগে “একজন” অর্থে a।|A Mr. Rahim called.|📞",
+"a|দাম, সংখ্যা বা পরিমাণ বোঝাতে a বসে।|a hundred taka|💵",
+"a|ধরন বা প্রকার বোঝাতে a বসে।|a kind of fruit|🍉",
+"a|such, quite, rather এর পরে a বসে।|such a day|⛅",
+"a|h উচ্চারিত হলে (হ) a বসে।|a horse|🐴",
+"a|dozen, couple, pair জাতীয় পরিমাণে a বসে।|a dozen eggs|🥚",
+"a|সংজ্ঞা বা শ্রেণি বোঝাতে a বসে।|A cat is an animal.|🐱",
+"an|স্বরধ্বনি (a, e, i, o, u) দিয়ে শুরু শব্দের আগে an বসে।|an apple|🍎",
+"an|h নীরব থাকলে an বসে।|an hour|⏰",
+"an|স্বরধ্বনিতে শুরু পেশার নামের আগে an বসে।|He is an engineer.|👷",
+"an|সংক্ষেপের প্রথম অক্ষরের উচ্চারণ স্বর হলে an বসে।|an MBA|📜",
+"an|স্বরধ্বনিতে শুরু বিশেষণের আগে an বসে।|an old house|🏚️",
+"an|honest, heir, honour এর আগে an বসে।|an honest boy|😇",
+"an|u এর উচ্চারণ “আ” হলে an বসে।|an umbrella|☂️",
+"the|আগে উল্লেখ করা জিনিস বোঝাতে the বসে।|I have a cat. The cat is white.|🐈",
+"the|পৃথিবীতে একটিই আছে এমন জিনিসের আগে the বসে।|the sun|☀️",
+"the|নির্দিষ্ট ব্যক্তি বা বস্তু বোঝাতে the বসে।|the teacher of my school|👨‍🏫",
+"the|সর্বোচ্চ ডিগ্রি (superlative) এর আগে the বসে।|the best player|🏆",
+"the|ক্রমবাচক সংখ্যার আগে the বসে।|the first day|1️⃣",
+"the|নদীর নামের আগে the বসে।|the Padma|🌊",
+"the|সাগর ও মহাসাগরের নামের আগে the বসে।|the Pacific Ocean|🌍",
+"the|পর্বতমালার নামের আগে the বসে।|the Himalayas|🏔️",
+"the|বহুবচন বা যৌগ দেশের নামের আগে the বসে।|the USA|🗽",
+"the|বিখ্যাত সংবাদপত্রের নামের আগে the বসে।|the Daily Star|📰",
+"the|ধর্মগ্রন্থের নামের আগে the বসে।|the Quran|📖",
+"the|বাদ্যযন্ত্রের নামের আগে the বসে।|play the guitar|🎸",
+"the|বিশেষণ দিয়ে পুরো শ্রেণি বোঝাতে the বসে।|the rich|💰",
+"the|শ্রোতা ও বক্তা দুজনেই যা জানে, তার আগে the বসে।|the answer to your question|❓",
+"the|of দিয়ে নির্দিষ্ট করা বিশেষ্যের আগে the বসে।|the color of the sky|🎨",
+"the|দিকের নামের আগে the বসে।|the north|🧭",
+"the|পরিবারের নাম (বহুবচন) এর আগে the বসে।|the Rahmans|🏠",
+"the|সরকারি প্রতিষ্ঠান বা সংস্থার আগে the বসে।|the government|🏛️",
+"the|দিনের নির্দিষ্ট সময় বোঝাতে the বসে।|in the morning|🌅",
+"the|চোখের সামনের নির্দিষ্ট জিনিসে the বসে।|Open the door.|🚪",
+"x|সাধারণ বহুবচনে কোনো article বসে না।|Dogs bark.|🐕",
+"x|অগণনীয় বিষয়ে কোনো article বসে না।|Water is life.|💧",
+"x|খেলা ও ভাষার নামের আগে article বসে না।|I play cricket.|🏏",
+"x|দেশ ও শহরের নামের আগে সাধারণত article বসে না।|Bangladesh is beautiful.|🇧🇩",
+"x|খাবারের বেলার নামের আগে article বসে না।|We eat breakfast at eight.|🍳"
+];
+var nm={a:"A",an:"An",the:"The",x:"No article"};
+document.getElementById("rules").innerHTML=R.map(function(r,i){
+ var p=r.split("|"),ex=p[2].replace(/\b(a|an|the)\b/gi,"<mark>$1</mark>");
+ return '<article class="rc k-'+p[0]+'"><svg viewBox="0 0 200 110" role="img" aria-label="'+p[2]+'"><rect width="200" height="110" style="fill:var(--c);opacity:.14"/><circle cx="170" cy="20" r="34" style="fill:var(--c);opacity:.18"/><circle cx="22" cy="96" r="26" style="fill:var(--c);opacity:.18"/><text x="100" y="64" font-size="44" text-anchor="middle">'+p[3]+'</text><text x="100" y="96" font-size="11" font-weight="700" text-anchor="middle" style="fill:var(--c)">'+(p[2].length>34?nm[p[0]]:p[2])+'</text></svg><div class="rb"><small>Rule '+(i+1)+' · '+nm[p[0]]+'</small><p class="bn">'+p[1]+'</p><span class="ex">'+ex+'</span></div></article>';
+}).join("");
+})();
+</script>
+<script>
+(function(){
+var box=document.getElementById("rules"),cards=[].slice.call(box.children),groups={},
+meta={a:["A","A-এর নিয়ম"],an:["An","An-এর নিয়ম"],the:["The","The-এর নিয়ম"],x:["No article","Article ছাড়া নিয়ম"]};
+box.innerHTML="";
+["a","an","the","x"].forEach(function(k){
+ var c=cards.filter(function(el){return el.classList.contains("k-"+k)}),g=document.createElement("section");
+ g.className="grp k-"+k;
+ g.innerHTML='<h3 class="gh">'+meta[k][0]+' <span class="bn">'+meta[k][1]+'</span><em>'+c.length+' rules</em></h3><div class="rf"></div>';
+ c.forEach(function(el){g.querySelector(".rf").appendChild(el)});
+ box.appendChild(g);groups[k]=g;
+});
+document.getElementById("rtabs").addEventListener("click",function(e){
+ var b=e.target.closest(".rchip");if(!b)return;
+ this.querySelectorAll(".rchip").forEach(function(x){x.classList.remove("on")});b.classList.add("on");
+ for(var k in groups)groups[k].style.display=(b.dataset.g==="all"||b.dataset.g===k)?"":"none";
+});
+})();
+</script>
+</body>
+</html>
